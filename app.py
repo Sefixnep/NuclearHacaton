@@ -295,7 +295,6 @@ def predict():
     plt.figure(figsize=(10, 6))
     show(vis_img, 
          instances=instances,
-         title=f"Angle: {angle}°, Coords: {coords_str}",
          visualize_bboxes=True,
          figsize=(10, 6))
     
