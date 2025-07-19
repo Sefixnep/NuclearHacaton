@@ -42,7 +42,7 @@
 ### 1. 📦 Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/sefixnep/NuclearHacaton.git
+git clone https://github.com/Sefixnep/NuclearHacaton.git
 cd NuclearHacaton
 ```
 
