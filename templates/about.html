@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - AI System for Laser Micromachining</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: #1e1e2f;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .team-section {
+      margin-top: 30px;
+    }
+
+    .team-member {
+      margin: 10px 0;
+    }
+
+    .team-member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="{{ url_for('static', filename='logo.jpg') }}" class="logo" alt="Logo">
+    <h1 class="project-title">О нас</h1>
+
+    <p>
+      Этот проект представляет собой систему машинного обучения для анализа изображений в области лазерной микромеханики.
+      Мы используем современные алгоритмы для обработки изображений и предсказания результатов.
+    </p>
+
+    <h2>Цель проекта</h2>
+    <p>
+      Наши технологии помогают автоматизировать процесс анализа материалов, что повышает точность и скорость работы.
+    </p>
+
+    <h2>Команда Radiance</h2>
+    <div class="team-section">
+      <div class="team-member">
+        <span>Семён</span>
+      </div>
+      <div class="team-member">
+        <span>Альберт</span>
+      </div>
+      <div class="team-member">
+        <span>Ярослав</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
